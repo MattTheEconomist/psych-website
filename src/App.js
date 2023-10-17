@@ -1,12 +1,12 @@
-import './App.css';
+// import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import FAQ from './components/FAQ';
-import TherapyTypes from './components/therapyTypes';
-import Layout from './components/Layout'; // Import the Layout component
-
+import FAQ from './components/FAQ/FAQ';
+import TherapyTypes from './components/therapyTypes/therapyTypes';
+import Layout from './components/Layout'; 
 function App() {
   return (
+  
     <Router>
     <Layout>
       <Routes>

@@ -1,0 +1,7 @@
+
+/* Define a CSS variable */
+:root {
+  --primaryColor: #007bff;
+  --text-color: #333;
+}
+

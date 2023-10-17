@@ -1,8 +1,13 @@
 
+@import '../../globalStyles.module.css';
+
+
+
 /* Header container */
 .header {
-    background-color: #d0c6c6; /* Set the background color */
-    padding: 10px; /* Add some padding for spacing */
+    background-color: var(--primaryColor) ;
+    /* background-color: #d0c6c6;  */
+    padding: 5px; /* Add some padding for spacing */
   
     /* Flexbox styles */
     display: flex; /* Use Flexbox */
@@ -11,24 +16,24 @@
   }
   
   /* Navigation links */
-  .nav-links {
+  .navLinks {
     list-style: none; /* Remove bullet points for list items */
     padding: 0; /* Remove default padding for lists */
     display: flex; /* Use Flexbox for the list items */
   }
   
-  .nav-links li {
+  .navLinks li {
     margin-right: 20px; /* Add spacing between list items */
   }
   
-  .nav-links a {
+  .navLinks a {
     text-decoration: none; /* Remove underlines from links */
     color: black; /* Set link color */
     font-weight: bold; /* Make links bold */
   }
   
   /* Style for active link (if needed) */
-  .nav-links a:hover {
+  .navLinks a:hover {
     text-decoration: underline; /* Add underline on hover */
     color: lightgray; /* Change link color on hover */
   }

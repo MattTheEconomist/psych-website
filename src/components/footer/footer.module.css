@@ -1,0 +1,40 @@
+/* Import global styles */
+@import '../../globalStyles.module.css';
+
+footer {
+    background-color: #333;
+    color: white;
+    height: 3em;
+    display: flex;
+    justify-content: space-between; /* Align the content to the right (bottom right corner) */
+    align-items: flex-end; /* Align the content to the bottom */
+    /* padding: 10px 0; */
+    padding: -40px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.outerContainer {
+    /* background-color: #444; */
+    text-align: center;
+    width: 100%;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.75em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.email, .phone {
+    margin: 0 10px;
+}

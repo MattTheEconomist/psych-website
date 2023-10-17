@@ -1,0 +1,35 @@
+@import '~font-awesome/css/font-awesome.css';
+
+ .faq-question {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .question {
+    padding: 10px;
+    width: 6em; 
+    cursor: pointer;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .answer {
+    padding: 10px;
+    display: none;
+  }
+  
+  .answer.show {
+    display: block;
+  }
+  
+  .faq-question .question i {
+    font-size: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .faq-question .question.show i {
+    transform: rotate(180deg);
+  }
+   

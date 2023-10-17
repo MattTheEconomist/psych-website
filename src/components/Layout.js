@@ -1,14 +1,19 @@
 import React from 'react';
-import Header from './header'; // Import the Header component
-import Footer from './Footer'; // Import the Footer component
+import Header from './header/header'; 
+import Footer from './footer/Footer'; 
+
+import styles from './layout.module.css'; 
+
+
 
 function Layout({ children }) {
   return (
-    <div>
-      <Header /> {/* Include the Header component */}
-      {children} {/* This is where the content of child components will be rendered */}
-      <Footer /> {/* Include the Footer component */}
+    <div className={styles.layoutContainer}>
+      <Header />
+      <div className={styles.content}>{children}</div>
+      <Footer />
     </div>
+
   );
 }
 
