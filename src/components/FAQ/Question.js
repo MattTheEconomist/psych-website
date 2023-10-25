@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from "./faq.module.css"
 
 
-function Question({ question, answer }) {
+function Question({ questionText, answerText }) {
     const [showAnswer, setShowAnswer] = useState(false);
   
     const toggleAnswer = () => {
@@ -14,11 +14,12 @@ function Question({ question, answer }) {
         <div
           className={`${styles.question} ${showAnswer ? styles.expanded : ''}`}
           onClick={toggleAnswer}
-        >
-          {question}
-          <i className={`fa ${showAnswer ? 'fa-caret-up' : 'fa-caret-down'}`}></i>
+            >
+          {questionText}
         </div>
-        {showAnswer && <div className={styles.answer.show}>{answer}</div>}
+        {/* {showAnswer && <div className={styles.answer.show}>{answerText}</div>} */}
+        {showAnswer && <div className={styles.answerShow}>{answerText}</div>}
+        {/* {showAnswer && <div style={{backgroundColor: 'teal'}}className={styles.answerShow}>{answerText}</div>} */}
       </div>
     );
   }

@@ -1,35 +1,62 @@
 @import '~font-awesome/css/font-awesome.css';
 
- .faq-question {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
+:root {
+    --questionWidth: 20em;
   }
+
+.faq{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faqQuestion{
+    border-top: 0.1em solid black
+}
+
+ .faqQuestion:last-child {
+    border-bottom: 0.1em solid black
+  } 
   
   .question {
-    padding: 10px;
-    width: 6em; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em; 
+    background-color: red;
+    width: var(--questionWidth); 
     cursor: pointer;
     background-color: #f0f0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.5em;
   }
+
+  .answerShow{
+    /* background-color: blue; */
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* width: 18em; */
+    width: 33em;
+    height: auto; 
+  overflow: auto;
+    /* width: var(--questionWidth);  */
+  
+  }
+ 
   
   .answer {
-    padding: 10px;
+    /* padding: 10px; */
     display: none;
+    /* background-color: teal; */
   }
-  
+/*   
   .answer.show {
     display: block;
-  }
-  
-  .faq-question .question i {
-    font-size: 20px;
-    transition: transform 0.3s;
-  }
-  
-  .faq-question .question.show i {
-    transform: rotate(180deg);
-  }
+    background-color: teal;
+  } */
+
+
+
    
