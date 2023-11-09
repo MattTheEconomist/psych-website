@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 import styles from "./faq.module.css"
 import Question from './Question';
 
@@ -40,13 +42,21 @@ const FAQ = () => {
     },
    
   ];
-
   return (
     <>
-    <div className={styles.faqTitle}>Frequently Asked Questions
-    <div className={styles.sineWave}></div>
+    <div className={`${styles.faqTitleSpacer} ${styles.polkaDots}`}></div>
+    <div className={`${styles.faqTitle} ${styles.polkaDots}`}>
+      <h1>Frequently Asked Questions</h1>
+   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1"
+     d="M0,224L120,192C240,160,480,96,720,101.3C960,107,1200,181,1320,218.7L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+
+     ></path></svg>
+
+
     </div>
     
+
         <div className={styles.faq}>
       {faqData.map((item, index) => (
         <Question key={index} questionText={item.question} answerText={item.answer} />

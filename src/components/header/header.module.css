@@ -1,39 +1,94 @@
 
 @import '../../globalStyles.module.css';
 
-
-
-/* Header container */
 .header {
     background-color: var(--primaryColor) ;
-    /* background-color: #d0c6c6;  */
-    padding: 5px; /* Add some padding for spacing */
-  
-    /* Flexbox styles */
-    display: flex; /* Use Flexbox */
-    justify-content: space-between; /* Horizontal alignment: distribute items evenly */
-    align-items: center; /* Vertical alignment: center items vertically */
+    padding: 5px; 
+    margin-bottom: 2em; 
+    display: flex; 
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: height 0.35s ease-in-out;
+    height: 55px;
+
+  }
+
+  .shrink{
+    height: 30px; 
+  }
+
+  .logoContainer{
+    width: 14rem; 
+    /* background-color: red; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .allLinksContainer{
+    width: 50rem; 
+    display: flex; 
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+ .logo{
+    align-self: flex-start;
+    padding-bottom: 0.3rem; 
+    text-decoration: none; 
+    /* font-weight: bolder; */
+    font-size: larger; 
+    font-family: var(--primaryFont);
+    min-width: 14rem; 
+    padding-left: 1rem; 
+
+  } 
+
+  .linkContainer{
+    padding-bottom: 0.3rem; 
+    text-decoration: none; 
+    margin-left: 5rem; 
+    font-family: var(--primaryFont);
+   min-width: 6rem; 
+   text-align: center;
+   vertical-align: middle;
+  } 
+
+.linkContainer:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px; 
+    color: white; 
+    transform: translateY(0);
+  } 
+
+
+.logo a {
+    text-decoration: none; 
+    transition: all 0.15s ease-in-out;
+  }
+
+    
+  .linkContainer a{
+    text-decoration: none; 
+    transition: all 0.15s ease-in-out;
+  }
+
+  .linkContainer a:hover{
+    color: white; 
+    transform: translateY(0);
   }
   
-  /* Navigation links */
-  .navLinks {
-    list-style: none; /* Remove bullet points for list items */
-    padding: 0; /* Remove default padding for lists */
-    display: flex; /* Use Flexbox for the list items */
+  .logoContainer a:hover{
+    color: white; 
+    transform: translateY(0);
   }
-  
-  .navLinks li {
-    margin-right: 20px; /* Add spacing between list items */
-  }
-  
-  .navLinks a {
-    text-decoration: none; /* Remove underlines from links */
-    color: black; /* Set link color */
-    font-weight: bold; /* Make links bold */
-  }
-  
-  /* Style for active link (if needed) */
-  .navLinks a:hover {
-    text-decoration: underline; /* Add underline on hover */
-    color: lightgray; /* Change link color on hover */
-  }
+
