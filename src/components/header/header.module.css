@@ -2,7 +2,8 @@
 @import '../../globalStyles.module.css';
 
 .header {
-    background-color: var(--primaryColor) ;
+    /* background-color: var(--primaryColor) ; */
+    background-color: #F5F2DA;
     padding: 5px; 
     margin-bottom: 2em; 
     display: flex; 

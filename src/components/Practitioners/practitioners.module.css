@@ -1,0 +1,60 @@
+@import '../../globalStyles.module.css';
+
+/* Define a CSS variable */
+:root {
+
+    --pageLeftMargin: 3rem
+  }
+
+.headerSpacer{
+    height: 4rem; 
+    /* background-color: teal; */
+}
+
+.practitionersTitle{
+    font-family: var(--logoFont);
+    font-size: 3rem;
+    margin-left: var(--pageLeftMargin);
+    margin-bottom: 3rem;
+}
+
+.doctorName{
+    font-family: var(--logoFont);
+    color: var(--primaryColor); 
+    font-size:  2rem; 
+    margin-left: var(--pageLeftMargin);
+}
+
+.doctorRole{
+    font-family: var(--primaryFont);
+    font-size:  1.3rem; 
+    margin-left: var(--pageLeftMargin);
+    margin-top: 0.5rem;
+
+}
+ .textAndPicContainer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    margin-left: var(--pageLeftMargin);
+    margin-top: 3.5rem ;
+
+ }
+
+ .doctorText{
+    min-width: 10rem;
+    max-width: 30rem; 
+    font-family: var(--primaryFont);
+
+ }
+
+ .doctorImage{
+    background-color: teal;
+    border-top-right-radius: 20%;
+    /* width: 10rem;  */
+    max-width: 15rem; 
+    min-width: 15rem; 
+    height: 15rem; 
+    margin-left: 10%
+ }

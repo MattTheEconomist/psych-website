@@ -6,6 +6,7 @@ import TherapyTypes from './components/therapyTypes/therapyTypes';
 import Layout from './components/Layout'; 
 import Practitioners from './components/Practitioners/Practitioners'; 
 import Blog from './components/Blog/Blog'; 
+import Homepage from './components/Homepage/Homepage';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<h2>Home Content</h2>}
+          element={<Homepage />}
         />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/therapy-types" element={<TherapyTypes />} />
