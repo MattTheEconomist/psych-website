@@ -3,7 +3,12 @@
 
 /* Define a CSS variable */
 :root {
-  --primaryColor: #007bff;
+  --primaryColor: #45b3e0 ; 
+  /* --primaryColor: #4AA1FF; */
+  /* --secondaryColor: #3D6A99;  */
+  --thirdColor: 	#f3fafd; 
+  --secondaryColor: #c9e9f6; 
+  --offWhite: #f0f7fa; 
   --text-color: #333;
   --primaryFont: 'Raleway', sans-serif;
   --logoFont: 'Nunito', sans-serif;

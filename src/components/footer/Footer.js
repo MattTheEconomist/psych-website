@@ -9,7 +9,8 @@ function Footer() {
   return (
     <>
     <div className={styles.spacer}></div>
-        <footer className={styles['footer--pin']}>
+
+        <div className={styles.footerContainer}>
         <div className={styles.outerContainer}>
             <div className={styles.innerContainer}>
                 <div className={styles.contact}>
@@ -19,7 +20,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
     </>
 
   );

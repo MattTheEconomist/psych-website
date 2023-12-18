@@ -2,14 +2,22 @@
 
 @import '../../globalStyles.module.css';
 
+
+.topSectionContainer{
+    background-color: var(--thirdColor);
+    padding-bottom: 15rem; 
+
+}
 .titleContainer{
     font-family: var(--logoFont);
   font-size: 2.5rem; 
-    margin-top: 2rem ;
+    margin-top: -1rem ;
+    padding-top: 2rem ;
+    /* padding-bottom: 1rem;  */
     display: flex;
-    /* justify-content: center; */
     justify-content: left;
     margin-left: 3rem; 
+
 }
 
 .subtextContainer{
@@ -28,10 +36,11 @@
 }
 
 .pictureContainer{
-    background-color: teal;
+    /* background-color: teal; */
     width: 10rem; 
+    height: 10rem ; 
     border-top-left-radius: 30%;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
 
 }
 
@@ -40,15 +49,29 @@
     margin-left: 3rem; 
 }
 
-.buttonContainer{
+.allButtonsAreaContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* justify-content: space-around; */
-    width: 75%; 
+    width: 85%; 
     margin-top: 6rem; 
-    margin-left: 3rem; 
+    margin-left: 5%; 
+    margin-top: 13rem;
+    /* background-color: blue; */
 
+}
+
+.buttonAreaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    text-align: center;
+    margin-left: 1rem; 
+    /* margin-right: 2rem;  */
+    /* background-color: blue; */
+    /* margin-left: 4rem; */
+ 
 }
 
 .button{
@@ -64,4 +87,8 @@
 
 .button:hover{
     background-color: #eee;
+}
+
+.content{
+    font-family: var(--primaryFont);
 }

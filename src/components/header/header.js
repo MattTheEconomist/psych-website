@@ -38,7 +38,11 @@ function Header() {
             </div>
 
           <div className={styles.linkContainer}>
-            <Link to="/therapy-types">Therapy Types</Link>
+            <Link to="/therepy">Therepy</Link>
+            </div>
+
+            <div className={styles.linkContainer}>
+            <Link to="/testing">Testing</Link>
             </div>
             
             <div className={styles.linkContainer}>

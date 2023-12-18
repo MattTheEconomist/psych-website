@@ -46,7 +46,8 @@ const FAQ = () => {
     <>
     <div className={`${styles.faqTitleSpacer} ${styles.polkaDots}`}></div>
     <div className={`${styles.faqTitle} ${styles.polkaDots}`}>
-      <h1>Frequently Asked Questions</h1>
+      
+      <h1 className={styles.faqTitleText}>Frequently Asked Questions</h1>
    
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1"
      d="M0,224L120,192C240,160,480,96,720,101.3C960,107,1200,181,1320,218.7L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
