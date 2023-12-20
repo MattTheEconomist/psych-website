@@ -1,0 +1,148 @@
+@import '../../globalStyles.module.css';
+
+
+.headerSpace{
+    /* height: 5rem */
+}
+
+.titleAreaContainer{
+    width: 100%; 
+    /* height: 45rem;  */
+    height: 80vw; 
+    max-height: 50rem;
+    position: relative;
+    display: grid;
+  place-items: center;
+  max-width: 100% ;
+  display: flex;
+  flex-grow: 1;
+
+  /* height: auto; */
+  /* height: auto; */
+
+
+}
+
+.titleAreaContainer::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url("./testing.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    margin-top: -2rem; ;
+    width: 100% ;
+
+    opacity: 0.50
+
+}
+
+
+
+.titleTextContainer{
+    position: relative;
+
+    font-size: 4rem;
+    opacity: 1; 
+    /* margin-right: 45%;  */
+    margin-left: 39%; 
+    margin-top: -2rem; 
+    /* margin-top: -15rem;  */
+    /* font:  'Nunito', sans-serif; */
+    color: var(--primaryColor); 
+    font-family:  var(--logoFont);
+    margin-bottom: -5rem; 
+  
+
+}
+
+
+.reachoutContainer{
+
+    background-color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    font-size: 2rem;
+    height: 10rem; 
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 6rem; 
+    color: #ffffff; 
+    padding-right: 25%;
+    display: flex; 
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    padding-left: 2rem; 
+    padding-bottom: 7rem; 
+    margin-top: -2rem;
+}
+
+.reachoutTitle{
+    font-size: 1.75rem; 
+}
+
+.reachoutSubtext{
+    font-size: 1.3rem; 
+}
+
+.iconContainer{
+    background-color: var(--primaryColor);
+    margin-left: 2rem;
+}
+
+.servicesContent{
+    background-color: var(--secondaryColor);
+}
+
+
+.shapeDivider{
+    background-color: var(--secondaryColor);
+}
+
+
+.topDivider{
+    background-color: var(--thirdColor);
+}
+
+
+
+.contentText{
+    min-width: 10rem;
+    max-width: 30rem; 
+    font-family: var(--primaryFont);
+    background-color: var(--thirdColor);
+
+ }
+
+.contextTitle{
+    font-family: var(--logoFont); 
+    font-size: 1.5rem; 
+}
+ 
+ .content{
+    display: flex; 
+    flex-direction: row;
+    margin-top: -2rem; 
+    padding-top: 5rem; 
+    background-color: var(--thirdColor);
+    padding-left: 2rem; 
+    padding-bottom: 5rem; 
+ }
+
+ .iconContainerOnline{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+
+ }
+
+ .statesContainer{
+    font-family: var(--logoFont);
+    padding-left: 2rem;
+    padding-top: 5rem;
+    font-size: 1.4rem;
+ }

@@ -118,7 +118,6 @@ function animate() {
 
     return (<>
 
- 
 
 <div className={styles.morphAndResponse}>
 
