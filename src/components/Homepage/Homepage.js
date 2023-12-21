@@ -3,7 +3,7 @@ import styles from "./homepage.module.css"
 import LogoSplash from "./LogoSplash"
 import Explanation from "./Explanation"
 import MorphSection from './MorphSection';
-
+import BlogTiles from './BlogTilles';
 
 
 
@@ -18,6 +18,7 @@ return( <>
 
 <LogoSplash /> 
 <Explanation /> 
+<BlogTiles  /> 
 <MorphSection />
 <div className={styles.helpDiv}> We can help! </div>
 

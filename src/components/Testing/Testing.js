@@ -3,6 +3,10 @@ import styles from "./testing.module.css"
 
 import Wave from "../Wave"
 
+import IconAccuracy from './IconAccuracy';
+import IconFail from './IconFail';
+import AllCards from './AllCards';
+
 function Testing (){
 
     return (<>
@@ -16,13 +20,19 @@ function Testing (){
 <div className={styles.reachoutContainer}>
 
 <div className={styles.textContainer}>
-<h3 className={styles.reachoutTitle}> Expert Mental Healthcare</h3>
-<h3 className={styles.reachoutSubtext}> from the comfort of your own home</h3>
+<h3 className={styles.reachoutTitle}> Get Accurate Diagnoses</h3>
+<h3 className={styles.reachoutSubtext}> to match your symptoms to mental disorders</h3>
+
+
+
+
 </div>
 
 
 
+
 <div className={styles.iconContainer}>
+    <IconAccuracy />
 </div>
 </div>
 <div class="shapeDivider">
@@ -39,25 +49,28 @@ function Testing (){
 
 
 <div className={styles.contentText}>
-  <h3 className={styles.contextTitle}>Convenient Help at your Fingertips</h3>
+  <h3 className={styles.contextTitle}>Assessment is more Important than Ever Before</h3>
                <br/>
                <br/>
-               Imagine a world where seeking help for your mental well-being is as convenient as ordering groceries or booking a flight. Online therapy has made that world a reality, revolutionizing the way we access mental healthcare. No longer are geographic barriers, time constraints, or social anxieties obstacles to getting the support you need. With a few clicks, you can connect with a licensed therapist from the comfort and privacy of your own home, opening doors to a healthier and happier you.
+               Psychological testing has come a long way from merely assessting intelligence.  Today, assessments are used in everything from private school admissions and test accommodation to validation of symptoms before medication can be prescribed. 
                <br/>
                <br/>
           
-               Online therapy isn't just about convenience; it's about empowering individuals to prioritize their mental well-being. It's a testament to the power of technology and its ability to bridge gaps, democratize access, and unlock a world of possibilities for mental health support. So, take a step towards a healthier you, click on that virtual door, and discover the transformative power of online therapy.
+               For those struggling with challenges such as ADHD, dyslexia, or anxiety, psychological testing can be an absolute necessity. By pinpointing their specific learning needs and cognitive strengths, it opens the door to targeted interventions and test accommodations. This empowers individuals to reach their full potential in the workplace or academia. 
+
+               <br/>
+               <br/>
+               There is more to psychological assessment than reading the results.
+               An answer might appear normal on paper, but our practitioners can discern underlying anxieties, cultural influences, or unspoken vulnerabilities based on subtle cues and patterns.
 
 
-
-
-
-
-             
 
           </div>
 
-          <div className={styles.iconContainerOnline}>
+          <div className={styles.iconContainerFail}>
+          <IconFail/>
+
+
            
              </div>
           </div>
@@ -65,18 +78,26 @@ function Testing (){
 
         <Wave topColor= "#f3fafd"/> 
 
-        <div className={styles.statesContainer}>
-          We are currently accepting patients for online care who reside in:
+        <AllCards /> 
+
+        {/* <div className={styles.outerBorder}> 
+
+        <div className={styles.testingListContainer}>
+          We provide testing for:
           <ul>
-           <li>DC</li> 
-           <li>Maryland</li> 
-           <li>Virginia, or</li> 
-           <li>New York</li> 
+           <li>ADHD</li> 
+           <li>Autism</li> 
+           <li>Neuro-Psych</li> 
+           <li>Private School Admissions</li> 
+           <li>etc? </li> 
 
 
           </ul>
 
         </div>
+        </div> */}
+
+
 
 
     
