@@ -16,7 +16,7 @@
     /* padding-bottom: 1rem;  */
     display: flex;
     justify-content: left;
-    margin-left: 3rem; 
+    margin-left: 10rem; 
 
 }
 
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     margin-left: 3rem; 
+    margin-bottom: -9rem; 
 
 }
 .subtextAndPicture{
@@ -40,13 +41,31 @@
     width: 10rem; 
     height: 10rem ; 
     border-top-left-radius: 30%;
+
     /* padding-left: 3rem; */
 
 }
 
+:root{
+    --svgMarginLeft: 15vw;  
+    --svgMarginTop: -2rem
+}
+.svgContainer{
+    margin-left:  var(--svgMarginLeft); 
+    margin-top: var(--svgMarginTop)
+}
+.treatmentListContainer{
+    margin-top: -32rem; 
+    margin-left:  var(--svgMarginLeft); 
+    /* margin-top: var(--svgMarginTop);  */
+    font-size: 1.2rem
+    /* color: white;  */
+    /* background-color: #77a0f9; */
+}
+
 .treatmentList{
     font-family: var(--logoFont);
-    margin-left: 3rem; 
+    margin-left: 10rem; 
 }
 
 .allButtonsAreaContainer{

@@ -23,12 +23,20 @@
     font-family: var(--logoFont);
     font-size: 3rem;
     margin-left: var(--pageLeftMargin);
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
+    margin-top: 3rem; 
+    /* color: white;  */
 }
 
+.nameRoleContainer{
+    background-color: var(--thirdColor);
+    margin-top: -1rem; 
+}
 .doctorName{
     font-family: var(--logoFont);
     /* color: var(--primaryColor);  */
+
+    background-color: var(--thirdColor);
     font-size:  2rem; 
     margin-left: var(--pageLeftMargin);
 }
@@ -38,6 +46,8 @@
     font-size:  1.3rem; 
     margin-left: var(--pageLeftMargin);
     margin-top: 0.5rem;
+
+    background-color: var(--thirdColor);
 
 }
 

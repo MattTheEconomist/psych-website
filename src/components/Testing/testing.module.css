@@ -1,9 +1,9 @@
 @import '../../globalStyles.module.css';
 
+:root {
+    --screen-width: calc(100vw);
+  }
 
-.headerSpace{
-    /* height: 5rem */
-}
 
 .titleAreaContainer{
     width: 100%; 
@@ -165,7 +165,6 @@
    width:26rem;
    border-radius: 30px; 
    /* border: 1px solid blue;  */
-   
    padding-top: 5rem;
     padding-bottom: 3%; 
     padding-left: 4rem; 
@@ -178,4 +177,79 @@
 
  
  }
+
+ .allCardsTitle{
+    font-family: var(--logoFont); 
+    font-size: 1.8rem; 
+    margin-left: 10%; 
+    margin-right: 20%; 
+    margin-bottom: 3rem; 
+ }
+
+
+
+.cardTitle{
+    margin-bottom: 1.5rem;
+}
+
+
+ .cardContainer{
+    margin-left: 15vw; 
+    /* margin-left:calc(var(--screen-width) / 2 - (width / 2));
+    margin-right:  calc(var(--screen-width) / 2 - (width / 2)); */
+
+    /* margin-left: 15%; 
+    margin-right: 25%;  */
+
+    border: 1.5px solid var(--primaryColor); 
+    max-height: 2rem;
+    font-family: var(--logoFont); 
+    font-size: 1.4rem;
+    border-radius: 3rem; ;
+    width: 33rem; 
+    margin-top: 2rem; 
+
+    padding-top: 0.5rem;
+    transition: all 0.5s ease-in-out; 
+    padding-bottom: 9px;
+    padding-left: 5rem;  
+    overflow: hidden !important;
+    scrollbar-width: none;
+    cursor: pointer; 
+ } 
+
+ .cardContainer:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 11px 14px -5px, rgba(0, 0, 0, 0.3) 0px 8px 10px -8px;
+ }
+ 
+
+ .expandedNew{
+    /* background-color: blue; */
+    max-height: 15rem;
+    margin-bottom: 0.5rem; 
+    overflow: hidden !important;
+    scrollbar-width: none;
+ }
+
+ .titleContainer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--primaryFont);
+  ;
+    font-size: 1.5em;
+    transition: all 0.35s ease-in-out;
+    margin-bottom: 0px; 
+    overflow: hidden !important;
+
+  }
+
+
+.cardInfo{
+    font-family: var(--primaryFont);
+    font-size: 0.95rem;
+    margin-right: 1rem 
+}
+
+
 

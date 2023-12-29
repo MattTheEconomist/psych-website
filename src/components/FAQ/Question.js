@@ -11,10 +11,9 @@ function Question({ questionText, answerText }) {
         const bottomBorderPix = 30
         const answerTextLength = ansText.length
         const lines = Math.floor(answerTextLength/charsInLine)
-        const pixPerLine = 22
+        const pixPerLine = 25
         const lineInPix = lines * pixPerLine
         const totalHeight = lineInPix +bottomBorderPix
-        // console.log(answerTextLength, lines, totalHeight)
         return totalHeight
     }
 

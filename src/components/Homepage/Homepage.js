@@ -20,7 +20,9 @@ return( <>
 <Explanation /> 
 <BlogTiles  /> 
 <MorphSection />
-<div className={styles.helpDiv}> We can help! </div>
+<div className={styles.helpDiv}> You're in the right place </div>
+
+
 
 
 

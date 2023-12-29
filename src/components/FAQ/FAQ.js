@@ -9,32 +9,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: 'Is therepy right for me?',
-      answer: `idk lets find out together. It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 
-      out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.`,
+      question: 'How is Capital Therepy Group different from other practices?',
+      answer: `We create a space where everyone's experiences are met with respect and non-judgment. This welcoming atmosphere isn't mere chance; it's built on solid evidence-based practices. Our guides utilize proven techniques like CBT and ACT, equipping you with practical tools to manage anxiety, challenge negative thoughts, and develop healthy coping mechanisms. But evidence doesn't eclipse empathy. Our commitment to each individual shines through in every session, with personalized support and encouragement that goes beyond textbook solutions. We celebrate your triumphs, big and small, and offer a compassionate hand during rough patches. This potent blend of warmth, evidence, and unwavering dedication creates a transformative space where you're not just a client, but a valued member of a supportive community, empowered to blossom and thrive`,
+    },
+    
+    {
+      question: 'Does Capital Therepy Group offer online therepy?',
+      answer: `Yes we do! Sessions are conducted online via zoom. Please email us at client_help@capitaltherepygroup.com to book an online therepy session. `,
     },
     {
-      question: 'What types of patients do you see?',
-      answer: `We see all kinds of patients, from those with a fear of driving a car to those grieving the loss of loved ones.It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 
-      out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.
-      ces to figure out how this will look.   out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.ces to figure out how this will look `,
+      question: 'In what localities do you operate?',
+      answer: `We are currently open to all clients who reside in Virginia, DC, Maryland or New York. If you live in any of these states and are looking for therepy, please email us at client_help@capitaltherepygroup.com to book an online therepy session.`,
     },
     {
-      question: 'We need at least five or six questions here?',
-      answer: `We see all kinds of patients, from those with a fear of driving a car to those grieving the loss of loved ones.It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 
-      out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.`,
+      question: 'Does Capital Therepy Group accept insurance?',
+      answer: `Currently we are not accepting medical insurance for our services. `,
     },
 
     {
-      question: 'Why sad :( ? ',
-      answer: `We see all kinds of patients, from those with a fear of driving a car to those grieving the loss of loved ones.It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 
-      out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.`,
+      question: 'Is Capital Therepy Group HIPAA Compliant? ',
+      answer: `Yes we are. Capial Therepy Group complies with all HIPAA stipulations (?) `,
     },
-    {
-      question: 'Can i see my doctor virtually? ',
-      answer: `We see all kinds of patients, from those with a fear of driving a car to those grieving the loss of loved ones.It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 
-      out how this will look in the final page. It helps to have a few sentences to figure out how this will look in the final page.`,
-    },
+
     {
       question: 'What should the final question be? ',
       answer: `We see all kinds of patients, from those with a fear of driving a car to those grieving the loss of loved ones.It helps to have a few sentences to figure out how this will look in the final page.It helps to have a few sentences to figure out how this will look in the final page. It helps to have a few sentences to figure 

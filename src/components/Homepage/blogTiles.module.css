@@ -1,0 +1,46 @@
+@import '../../globalStyles.module.css';
+
+.blogContainerFull{
+    background-color: azure;
+}
+
+.blogTitle{    
+    font-size: 2rem; 
+    font-family: var(--logoFont);
+margin-left: 6rem; 
+margin-top: 7rem; 
+padding-top: 2rem;
+
+}
+
+
+.allTilesContainer{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.tileContainer{
+    width: 17rem; 
+    margin-left: 1rem; 
+}
+
+.imageContainer{
+    height: 5rem; 
+    content: 'image here'; 
+    background-color: rgb(165, 238, 238);
+}
+
+
+.titleText{
+    font-size: 1.2rem; 
+    font-family: var(--logoFont);
+}
+
+.snippet{
+    font-family: var(--primaryFont);
+
+}
+
+.postDate{
+    font-family: var(--primaryFont);
+}

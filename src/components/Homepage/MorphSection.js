@@ -16,7 +16,8 @@ function MorphSection(){
         "OCD?",
         "ADHD?",
         "Loneliness?",
-        "Fobia?"
+        "Fobia?", 
+        "Panic Attacks?"
     ])
 
     const [text1Content, setText1Content] = useState(texts[0])

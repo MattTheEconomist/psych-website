@@ -40,6 +40,8 @@
     position: relative; /* Keep it in the normal document flow */
     margin-bottom: -1rem;
     margin-top: -7rem; 
+    z-index: -1; 
+
 
 }
 
