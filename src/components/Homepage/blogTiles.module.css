@@ -1,14 +1,21 @@
 @import '../../globalStyles.module.css';
 
+
+.waveContainer{
+
+    margin-bottom: -4rem;;
+}
 .blogContainerFull{
-    background-color: azure;
+    /* background-color: #76d4f1 */
+    background-color: var(--secondaryColor); 
+    padding-left: 4rem; 
 }
 
 .blogTitle{    
     font-size: 2rem; 
     font-family: var(--logoFont);
 margin-left: 6rem; 
-margin-top: 7rem; 
+
 padding-top: 2rem;
 
 }
@@ -27,7 +34,9 @@ padding-top: 2rem;
 .imageContainer{
     height: 5rem; 
     content: 'image here'; 
-    background-color: rgb(165, 238, 238);
+    background-color: rgb(128, 151, 201);
+
+
 }
 
 
