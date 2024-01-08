@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MattTheEconomist/psych-website/static/css/main.15a751b5.css",
+    "main.js": "/MattTheEconomist/psych-website/static/js/main.61fc4330.js",
+    "static/js/787.f64bd7f5.chunk.js": "/MattTheEconomist/psych-website/static/js/787.f64bd7f5.chunk.js",
+    "static/media/testing.jpg": "/MattTheEconomist/psych-website/static/media/testing.02f997307206442f501e.jpg",
+    "static/media/water.jpg": "/MattTheEconomist/psych-website/static/media/water.c0546f044f6542503416.jpg",
+    "static/media/therepist.jpeg": "/MattTheEconomist/psych-website/static/media/therepist.78afdf9616c290a6f373.jpeg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/MattTheEconomist/psych-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/MattTheEconomist/psych-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/MattTheEconomist/psych-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/MattTheEconomist/psych-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/MattTheEconomist/psych-website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/waves.svg": "/MattTheEconomist/psych-website/static/media/waves.f724d0a23dd936b18f64.svg",
+    "index.html": "/MattTheEconomist/psych-website/index.html",
+    "main.15a751b5.css.map": "/MattTheEconomist/psych-website/static/css/main.15a751b5.css.map",
+    "main.61fc4330.js.map": "/MattTheEconomist/psych-website/static/js/main.61fc4330.js.map",
+    "787.f64bd7f5.chunk.js.map": "/MattTheEconomist/psych-website/static/js/787.f64bd7f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15a751b5.css",
+    "static/js/main.61fc4330.js"
+  ]
+}
